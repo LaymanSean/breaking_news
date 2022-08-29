@@ -42,7 +42,7 @@ $(function () {
     } else {
       $('.layui-nav-img').hide()
       const first = name[0].toUpperCase()
-      $('text-avatar').html(first).show()
+      $('.text-avatar').html(first).show()
     }
   }
 })
